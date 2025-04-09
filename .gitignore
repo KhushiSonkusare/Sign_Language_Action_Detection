@@ -1,0 +1,21 @@
+@"
+# Ignore virtual environments
+.venv/
+myenv/
+newenv/
+tf_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
